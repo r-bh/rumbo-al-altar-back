@@ -1,4 +1,5 @@
-# Rumbo al altar Backend
+# Project Name
+rumbo-al-altar-back
 
 ## Description
 
@@ -13,7 +14,15 @@ This server-side application provides backend functionality for the "Rumbo al al
 
 ## Installation
 
-To install the necessary dependencies, run the following command:
+To install and run this project on your local machine, follow these steps:
+
+1. Clone this repository on your local machine using Git:
+git clone https://github.com/r-bh/rumbo-al-altar-back.git
+
+2. Navigate to the project directory:
+cd rumbo-al-altar-back
+
+3. Install project dependencies using npm:
 npm install
 
 ## Usage
