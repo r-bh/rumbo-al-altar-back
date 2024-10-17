@@ -96,8 +96,8 @@ app.post('/login', (req, res) => {
 });
 
 // GET ALL ATTENDEES
-app.get('/attendees', (req, res) => {
-  Attendee.find().then(result => {
+app.get('/attendees/:weddingId', (req, res) => {
+  Attendee.find({ weddingId: req.params.weddingId }).then(result => {
     res.send(result);
   }).catch(err => {
     res.status(500).send({ message: 'Error interno del servidor' });
